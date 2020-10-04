@@ -2,6 +2,16 @@
 
 I conducted an analysis to identify topics in popular Machine Learning papers submitted to the NIPS (Neural Information Processing Systems) conference, https://nips.cc/. 
 
+## Keywords: 
+  Latent Dirichlet Allocation (LDA), Topic Modeling, Natural Language Processing, Data Visualization
+
+## Libraries Used: 
+1. Regular Expression 
+2. Pandas 
+3. CountVectorizer
+4. LatentDirichletAllocation
+5. Numpy
+
 ## Steps followed:
 **1. Preparing the data for analysis by removing columns that aren't required.**
 
@@ -35,9 +45,4 @@ We'll then plot the 10 most common words based on the outcome of this operation.
 
 Finally, the research titles will be analyzed using LDA. One obvious improvement to my code is to do something similar to a grid search to tune the number of words and number of topics. These can be tweaked, iterating over different combinations of these to find the combination with the lowest 'perplexity'. 
 
-## Libraries Used: 
-1. Regular Expression 
-2. Pandas 
-3. CountVectorizer
-4. LatentDirichletAllocation
-5. Numpy
+
